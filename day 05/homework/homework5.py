@@ -11,7 +11,7 @@ bgcolor("green")
 
 
 
-speed(100)
+speed(0)
 width(5)
 
 
