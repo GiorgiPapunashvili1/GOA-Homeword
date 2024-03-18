@@ -88,20 +88,20 @@
 
 
 
-# num1 = int(input("input your first number: "))
-# num2 = int(input("input your second number: "))
+num1 = int(input("input your first number: "))
+num2 = int(input("input your second number: "))
 
 
-# math = input("input +-*/")
+operation = input("use operation ( +,-,*,/,)")
 
-# if math == "/":
-#     print(num1 / num2)
-# elif math == "*":
-#     print(num1 * num2)
-# elif math == "+":
-#     print(num1 + num2)
-# elif math == "-":
-#     print(num1 - num2)
+if operation == "/":
+    print(num1 / num2)
+elif operation == "*":
+    print(num1 * num2)
+elif operation == "+":
+    print(num1 + num2)
+elif operation == "-":
+    print(num1 - num2)
 
 
  
